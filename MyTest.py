@@ -3,8 +3,10 @@ import DataBase as db
 from unittest.mock import MagicMock, patch, Mock
 import unittest
 
+
 def get_input(text):
     return input(text)
+
 
 class MyTest(unittest.TestCase):
     obj = api.Yummly()
@@ -13,7 +15,7 @@ class MyTest(unittest.TestCase):
     def mockConnectionBreakfast(self, Mock):
         Mock.return_value = db.breakfast
         return Mock()
-    
+
     def mockConnectionLunch(self, Mock):
         Mock.return_value = db.lunch
         return Mock()
