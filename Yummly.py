@@ -14,9 +14,9 @@ class Yummly(object):
             time = datetime.datetime.now().time().hour
         if 6 <= time <= 12:
             setmeal = 'breakfast'
-        if 13 <= time <= 18:
+        if 12 < time <= 18:
             setmeal = 'lunch'
-        if 19 <= time <= 24:
+        if 18 < time <= 24:
             setmeal = 'dinner'
 
         js = requests.get(
@@ -81,7 +81,7 @@ print("--------Feature Number 1:--------")
 print("")
 while True:
     try:
-        option = int(input('\nEnter Time: (Leave Empty For Default Time Zone)'))
+        option = float(input('\nEnter Time: (Leave Empty For Default Time Zone)'))
         time = option
         break
     except Exception:
