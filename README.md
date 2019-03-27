@@ -1,17 +1,18 @@
 ### Yummly Project
 
-Yumlly is a web which allows the user select recipes according to several criteria__
-that the user defines in advance such as: milky/meat, vegetarian/vegan, preparation time, etc.__
-The site allows recipes filtering according to the user criteria.__  
-Our features are:__
-* mealTime - The feature will return recipes according to the current system local time such for breakfast (6:00 - 12:00), Lunch (12:01 - 18:00), Dinner (18:01 - 24:00).__
-In addition, the feature allow the user to enter a time which he is interested. Meaning that if the user is interested in a dinner he will put the evening time (18:01 to 24:00) then he will get dinner recipes.__
-* buildMenu - The system will randomly build a nutrition menu for the user that contains breakfast, lunch and dinner.__
-The user will be able to decide whether he is interested with the menu or whether he want to switch to another one.__
+Yumlly is a web which allows the user select recipes according to several criteria<br />
+that the user defines in advance such as: milky/meat, vegetarian/vegan, preparation time, etc.<br />
+The site allows recipes filtering according to the user criteria.<br />  
+Our features are:<br />
+* mealTime - The feature will return recipes according to the current system local time such for breakfast (6:00 - 12:00), Lunch (12:01 - 18:00), Dinner (18:01 - 24:00).<br />
+In addition, the feature allow the user to enter a time which he is interested. Meaning that if the user is interested in a dinner he will put the evening time (18:01 to 24:00) then he will get dinner recipes.<br />
+* buildMenu - The system will randomly build a nutrition menu for the user that contains breakfast, lunch and dinner.<br />
+The user will be able to decide whether he is interested with the menu or whether he want to switch to another one.<br />
 
 ### Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.<br />
+See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
