@@ -8,8 +8,8 @@ class Yummly(object):
     def mealTime(self, time=0, deafult=None):
         setmeal = ''
         if (time < 6 or time > 24) and time != 0:
-            print('No Meal For That Time')
-            return 'No Meal For That Time'
+            print('no Meal for this Time')
+            return 'no Meal for this Time'
         if time == 0:
             time = datetime.datetime.now().time().hour
         if 6 <= time <= 12:
