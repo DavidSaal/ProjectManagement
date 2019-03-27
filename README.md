@@ -17,13 +17,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### How to install
 
-__1)__ Clone this repo to your computer:  'https://github.com/DavidSaal/ProjectManagement'
+__1)__ Clone this repo to your computer:  `https://github.com/DavidSaal/ProjectManagement`
 
 __2)__ Open command line.
 
 __3)__ Enter the following commands in the CL:
-      'A.  pip install requests
-      B.  pip install pycodestyle'
+      ```
+      1.  pip install requests
+      2.  pip install pycodestyle'
+      ```
 
 __4)__ Open the project in your IDE.
 
