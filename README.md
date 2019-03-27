@@ -1,9 +1,13 @@
 ### Yummly Project
 
-Yummly is recipes website, that allow you t
-our features in the project are : 
-	1.give us the champion team for each leagues (premier league,La liga,primeria liga,Eredivisie,champion league,bundesliga,ligue1).  
-	2.give us the best scorer for each league and sort it by amount of goals.  
+Yumlly is a web which allows the user select recipes according to several criteria
+that the user defines in advance such as: milky/meat, vegetarian/vegan, preparation time, etc.
+The site allows recipes filtering according to the user criteria.  
+Our features are:
+* mealTime - The feature will return recipes according to the current system local time such for breakfast (6:00 - 12:00), Lunch (12:01 - 18:00), Dinner (18:01 - 24:00).
+In addition, the feature allow the user to enter a time which he is interested. Meaning that if the user is interested in a dinner he will put the evening time (18:01 to 24:00) then he will get dinner recipes.
+* buildMenu - The system will randomly build a nutrition menu for the user that contains breakfast, lunch and dinner.
+The user will be able to decide whether he is interested with the menu or whether he want to switch to another one.
 
 ### Getting Started
 
