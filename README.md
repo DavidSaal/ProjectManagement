@@ -24,7 +24,7 @@ __2)__ Open command line.
 __3)__ Enter the following commands in the CL:
       ```
       1.  pip install requests
-      2.  pip install pycodestyle'
+      2.  pip install pycodestyle
       ```
 
 __4)__ Open the project in your IDE.
@@ -45,6 +45,7 @@ In order to run the test, use command line to enter the following command:
 python MyTest.py
 ```
 If all tests passed, you should see this output:
+
 ![image](https://github.com/DavidSaal/ProjectManagement/blob/master/images/TestsPass.jpg)
 
 
