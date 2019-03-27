@@ -44,7 +44,7 @@ The project is synchronized with:
 
 ## Running the tests
 
-In order to run the test, use command line to enter the following command: (open command line in project's directory).
+In order to run the test, use command line to enter the following command: (open command line in project's directory)
 ```
 python MyTest.py
 ```
