@@ -78,15 +78,6 @@ class Yummly(object):
 
 api = Yummly()
 print("--------Feature Number 1:--------")
-print("")
-while True:
-    try:
-        option = float(input('\nEnter Time: (Leave Empty For Default Time Zone)'))
-        time = option
-        break
-    except Exception:
-        time = 0
-        break
-api.mealTime(time)
+api.mealTime()
 print("\n--------Feature Number 2:--------")
 api.buildMenu()
