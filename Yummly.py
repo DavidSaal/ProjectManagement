@@ -8,7 +8,8 @@ class Yummly(object):
     def mealTime(self, time=0, deafult=None):
         setmeal = ''
         if (time < 6 or time > 24) and time != 0:
-            return 'no Meal for this Time'
+            print('No Meal For That Time')
+            return 'No Meal For That Time'
         if time == 0:
             time = datetime.datetime.now().time().hour
         if 6 <= time <= 12:
@@ -73,3 +74,18 @@ class Yummly(object):
                 ok = 'yes'
 
         return [randbreak, randlunch, randdinner]
+
+api = Yummly()
+print("--------Feature Number 1:--------")
+print("")
+while True:
+    try:
+        option = int(input('\nEnter Time: (Leave Empty For Default Time Zone)'))
+        time = option
+        break
+    except:
+        time = 0
+        break
+api.mealTime(time)
+print("\n--------Feature Number 2:--------")
+api.buildMenu()
