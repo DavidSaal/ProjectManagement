@@ -44,8 +44,7 @@ The project is synchronized with:
 
 ## Running the tests
 
-In order to run the test, use command line to enter the following command:
-(open command line in project's directory)
+In order to run the test, use command line to enter the following command: (open command line in project's directory).
 ```
 python MyTest.py
 ```
@@ -55,7 +54,7 @@ If all tests passed, you should see this output:
 
 
 ## Using the application
-Run the program with the command (you can on  CL inside the directed file) 
+Run the program with the command (you can on  CL inside the directed file).
 ```
 python Yummly.py
 ```
