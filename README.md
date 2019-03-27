@@ -43,7 +43,7 @@ In order to run the test, use command line to enter the following command:
 python MyTest.py
 ```
 If all tests passed, you should see this output:
-![image](https://github.com/DavidSaal/ProjectManagement/blob/master/images/TestsPass.jpeg )
+![image](https://github.com/DavidSaal/ProjectManagement/blob/master/images/TestsPass.jpg 
 
 
 ## Using the application
@@ -53,4 +53,4 @@ python Yummly.py
 ```
 and the following output will be : 
 
-![image](https://github.com/GuyHassan/ProjectManagement/blob/master/images/ShowFeatures.jpg)
+![image](https://github.com/DavidSaal/ProjectManagement/blob/master/images/ShowFeatures.jpg)
