@@ -34,10 +34,11 @@ blocks:
           - pycodestyle --ignore=E501,W605 *.py
           - echo "make lint"
 
-  - name: "Push Image To Heroku System "
+  - name: "Push Files To Heroku"
     task:
       jobs:
-      - name: Push to Heroku
+      - name: Push Files to Heroku.
         commands:
           - checkout
-          - echo "Push Image"
+          - echo "Pushed Files"
+          - git push https://heroku:5acd61ff-b132-4d89-880a-5c5a57f9de63@git.heroku.com/infinite-crag-35654.git master
