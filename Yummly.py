@@ -75,6 +75,7 @@ class Yummly(object):
 
         return [randbreak, randlunch, randdinner]
 
+
 api = Yummly()
 print("--------Feature Number 1:--------")
 print("")
@@ -83,7 +84,7 @@ while True:
         option = int(input('\nEnter Time: (Leave Empty For Default Time Zone)'))
         time = option
         break
-    except:
+    except Exception:
         time = 0
         break
 api.mealTime(time)
