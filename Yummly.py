@@ -1,4 +1,6 @@
-import requests, datetime, random
+import requests
+import datetime
+import random
 
 
 class Yummly(object):
@@ -27,7 +29,7 @@ class Yummly(object):
             j = j + 1
 
         print('\nChoose Recpie: ')
-        if deafult == None:
+        if deafult is None:
             choose = int(input())
         else:
             choose = deafult
@@ -39,23 +41,23 @@ class Yummly(object):
                 return i['ingredients']
 
     def buildMenu(self, deafult=None):
-        b = js = requests.get(
+        br = js = requests.get(
             url='http://api.yummly.com/v1/api/recipes?_app_id=a39b4356&_app_key=fb5e30845a6f6634f0bf404f6d99f8ab&q=breakfast').json()[
             'matches']
-        l = js = requests.get(
+        lu = js = requests.get(
             url='http://api.yummly.com/v1/api/recipes?_app_id=a39b4356&_app_key=fb5e30845a6f6634f0bf404f6d99f8ab&q=lunch').json()[
             'matches']
-        d = js = requests.get(
+        di = js = requests.get(
             url='http://api.yummly.com/v1/api/recipes?_app_id=a39b4356&_app_key=fb5e30845a6f6634f0bf404f6d99f8ab&q=dinner').json()[
             'matches']
         breakfast = []
         lunch = []
         dinner = []
-        for i in b:
+        for i in br:
             breakfast.append(i['recipeName'])
-        for i in l:
+        for i in lu:
             lunch.append(i['recipeName'])
-        for i in d:
+        for i in di:
             dinner.append(i['recipeName'])
         ok = 'no'
         while ok == 'no':
@@ -65,9 +67,9 @@ class Yummly(object):
             print('Your Meun - [Breakfast:: ' + randbreak + ', Lunch:: ' + randlunch + ', Dinner:: ' + randdinner + ']')
             print("\nDid you want this meun? (yes/no)")
 
-            if deafult==None:
+            if deafult is None:
                 ok = input()
             else:
-                ok='yes'
+                ok = 'yes'
 
         return [randbreak, randlunch, randdinner]
