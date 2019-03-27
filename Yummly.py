@@ -78,6 +78,6 @@ class Yummly(object):
 
 api = Yummly()
 print("--------Feature Number 1:--------")
-api.mealTime()
+api.mealTime(0,1)
 print("\n--------Feature Number 2:--------")
-api.buildMenu()
+api.buildMenu(1)
