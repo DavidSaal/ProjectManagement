@@ -1,2 +1,3 @@
 requests
 pycodestyle
+simplejson==2.6.2
