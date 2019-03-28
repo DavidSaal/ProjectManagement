@@ -41,5 +41,4 @@ blocks:
         commands:
           - checkout
           - echo "Pushed Files"
-          - git fetch --all --unshallow
-          - git push https://heroku:a7fb47b0-687f-4a55-8598-656318ed1a2f@git.heroku.com/david-saal-final.git
+          - git push https://heroku:a7fb47b0-687f-4a55-8598-656318ed1a2f@git.heroku.com/david-saal-final.git matser
