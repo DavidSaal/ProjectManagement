@@ -41,4 +41,4 @@ blocks:
         commands:
           - checkout
           - echo "Pushed Files"
-          - git push https://heroku:5acd61ff-b132-4d89-880a-5c5a57f9de63@git.heroku.com/infinite-crag-35654.git master
+          - git push https://heroku:a7fb47b0-687f-4a55-8598-656318ed1a2f@git.heroku.com/infinite-crag-35654.git master
