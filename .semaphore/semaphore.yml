@@ -41,4 +41,5 @@ blocks:
         commands:
           - checkout
           - echo "Pushed Files"
+          - ssh-add -D
           - git push https://heroku:a7fb47b0-687f-4a55-8598-656318ed1a2f@git.heroku.com/infinite-crag-35654.git master
