@@ -41,6 +41,3 @@ blocks:
         commands:
           - checkout
           - echo "Pushed Files"
-          - heroku git:remote -a david-projectmanagement
-          - a
-          - git push https://heroku:ed95ff50-daea-49c6-a239-bd024c2f8691@git.heroku.com/david-projectmanagement.git master
